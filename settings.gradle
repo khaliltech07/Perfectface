@@ -1,0 +1,5 @@
+include ':highpassskinsmoothness'
+include ':lib'
+include ':app'
+rootProject.name='Perfectface'
+include ':openCVLibrary2411'

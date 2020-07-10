@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Module.finaleditActivity">
+    <RelativeLayout
+        android:id="@+id/edit_ctrls"
+        android:layout_width="match_parent"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:layout_height="wrap_content"
+        android:background="#F0F8FF">
+
+        <LinearLayout
+            android:layout_marginBottom="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentTop="true"
+            android:padding="10dp"
+            android:baselineAligned="false"
+            android:background="#F0F8FF"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+            <ImageButton
+
+                android:id="@+id/btnEdit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ic_btn_edit"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"></ImageButton>
+
+            <!-- Frame -->
+
+            <ImageButton
+                android:id="@+id/btnFrame"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:paddingBottom="3dp"
+                android:background="@drawable/ic_btn_frame"
+                android:layout_weight="1"></ImageButton>
+
+            <!-- Share -->
+
+            <ImageButton
+                android:id="@+id/btnShare"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:paddingBottom="3dp"
+                android:background="@drawable/ic_btn_share"
+                android:layout_weight="1"></ImageButton>
+
+            <!-- Save -->
+
+            <ImageButton
+                android:id="@+id/btnSave"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:paddingBottom="3dp"
+                android:background="@drawable/ic_btn_save"
+                android:layout_weight="1"></ImageButton>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:id="@+id/imageView1"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:background="#F0F8FF"
+
+        ></ImageView>
+
+
+
+
+</LinearLayout>

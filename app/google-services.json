@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "227530284402",
+    "firebase_url": "https://perfectface-bc5f1.firebaseio.com",
+    "project_id": "perfectface-bc5f1",
+    "storage_bucket": "perfectface-bc5f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227530284402:android:6d13d412c8ad45151551eb",
+        "android_client_info": {
+          "package_name": "com.example.perfectface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227530284402-cs0j4788oneuqqcua1t6sgo1l7lc1k5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADAkpZvtXeoMEt7KByZ2qNrojPVS0YSw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227530284402-cs0j4788oneuqqcua1t6sgo1l7lc1k5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

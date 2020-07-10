@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Module.editactivity"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="#FFEFD5"
+
+       >
+
+        <TextView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="#F5F5DC"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="back"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#FFEFD5"
+            />
+
+        <TextView
+            android:id="@+id/btnApply"
+            android:text="Apply"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#FFEFD5"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/header"
+        android:layout_height="fill_parent"
+        android:background="#FFEFD5">
+
+        <ImageView
+            android:id="@+id/imgPreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFAFA"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:backgroundTint="#FFEFD5"
+            />
+
+        <com.darwindeveloper.horizontalscrollmenulibrary.custom_views.HorizontalScrollMenuView
+            android:background="@android:color/white"
+            android:id="@+id/controller"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            app:icon_height="25dp"
+            app:icon_width="25dp"
+            app:item_marginBottom="7dp"
+            app:item_marginLeft="4dp"
+            app:item_marginRight="4dp"
+            app:item_marginTop="8dp"
+            app:item_textColor="@android:color/black"
+            app:item_textSize="4sp"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+        </LinearLayout>
+
+
+        </com.darwindeveloper.horizontalscrollmenulibrary.custom_views.HorizontalScrollMenuView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
